@@ -1,0 +1,46 @@
+{
+  "name": "perplexity-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to interact with the Perplexity API from your terminal",
+  "main": "cli.js",
+  "bin": {
+    "perplexity-cli": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "perplexity",
+    "cli",
+    "ai",
+    "terminal",
+    "perplexity-api",
+    "chatbot",
+    "ai-assistant",
+    "command-line"
+  ],
+  "author": "Abdullah Adeeb",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "openai": "^4.20.1",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdullahAdeebx/perplexity-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AbdullahAdeebx/perplexity-cli/issues"
+  },
+  "homepage": "https://github.com/AbdullahAdeebx/perplexity-cli#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
